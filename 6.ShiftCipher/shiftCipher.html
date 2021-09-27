@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shift Cipher</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"></head>
+    <script src="shiftCipher.js" defer></script>
+</head>
+<body>
+    <section class="container">
+        <h1 id="heading">This is Shift Cipher Generator</h1>
+            <div >
+                <label for="exampleInputEmail1">Enter a message to be Converted</label>
+                <input type="text" class="form-control" id="input_message"  name="input_message" value="" >
+                <small  class="form-text text-muted">type Your message here</small>
+            </div>
+            <div >
+                <label for="exampleInputEmail1">Enter a  Number (key) you want to add</label>
+                <input type="number" class="form-control" id="input_number"  name="input_number" value="" >
+                <small  class="form-text text-muted">type Your Number (key) here</small>
+            </div>
+          <button type="submit" class="btn btn-primary mb-3" id="convertButton" onclick="shiftCipher(input_message.value,input_number.value)">Convert Into shiftCipher text</button>
+        </div>
+        <h2 id="output" > </h2>
+    </section>
+</body>
+</html>
