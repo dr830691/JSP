@@ -26,6 +26,4 @@ const myPromise = new Promise((resolve, reject) => {
   );
   let promise=fetch("https://sampleapis.com/");
   console.log(promise);
-
-  
   

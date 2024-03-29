@@ -30,3 +30,9 @@ function c() {
       })
     });
     })();
+
+    function job() {
+      return new Promise(resolve=>{
+          resolve('hello world');
+  })
+}
