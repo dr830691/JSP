@@ -1,0 +1,13 @@
+{
+  "name": "8.nodejs",
+  "version": "1.0.0",
+  "description": "commands to setup the project mkdir 8.Nodejs cd 8.Nodejs npm init -y  npm install express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
